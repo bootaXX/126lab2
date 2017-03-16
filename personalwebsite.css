@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Gloss And Bloom";
+    src: url("gloss_and_bloom/Gloss_And_Bloom.ttf");
+}
+
+html {
+    font-size: 20px;
+}
+
+main {
+    font-size: 20px;
+}
+
+p.first {
+    font-family: "Gloss And Bloom", sans-serif;
+    color: blue;
+    font-size: 1rem;
+}
+
+p.second {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+body{
+    width: ;
+    background-size: cover;
+    background-color: #000;
+    
+}
+
+
+.personal-info-container1 {
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35%;
+    height: 90%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #5DADE2;
+}
+
+.self-image {
+    background-image: url("gokus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 170% 100%;
+    width: 100%;
+    height: 100%;
+    /*opacity: 0.5;*/
+}
+
+.personal-info-container2 {
+    float: right;
+    position: absolute;
+    left: 38%;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 58%;
+    height: 90%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #5DADE2;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.me-info {
+    margin-top: 10px;
+    padding: 1em;
+    background-color: #515A5A;
+    width: 95%;
+    height: 83%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 5px;
+}
+
+.biography {
+    background-color: gray;
+    padding: 0.5em;
+    width: 98%;
+    height: 40%;
+}
+
+.biography-pic {
+    background-image: url("gokus1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 150%;
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.biography-info {
+    float: left;
+    width: 69%;
+    height: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 75%;
+}
+
+.education {
+    background-color: gray;
+    padding: 0.5em;
+    width: 98%;
+    height: 220%;
+    margin-top: 10px;
+}
+
+.education-info {
+    float: left;
+    width: 59%;
+    height: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 75%;
+}
+
+.education-pic {
+    background-image: url("goku-toddler-educ.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 50%;
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.hobbies {
+	background-color: gray;
+    padding: 0.5em;
+    width: 98%;
+    height: 150%;
+    margin-top: 10px;
+}
+
+.hobby1 {
+	background-image: url("hobby1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% 100%;
+    width: 49%;
+    height: 44%;
+    float: left;
+    margin-right: 1%;
+}
+
+.hobby2 {
+	background-image: url("hobby2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% 100%;
+    width: 49%;
+    height: 44%;
+    float: left;
+    margin-right: 1%;
+}
+
+.hobby3 {
+	background-image: url("hobby3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% 100%;
+    width: 49%;
+    height: 44%;
+    float: left;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.hobby4 {
+	background-image: url("hobby4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% 100%;
+    width: 49%;
+    height: 44%;
+    float: left;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+ul.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li.navbar-links-item {
+    float: left;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+li.navbar-links-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-links-item a:hover {
+    background-color: #111;
+}
+
+.left {
+    float: left;
+}
+
+.overflow {
+    display: block;
+    width: 500px;
+    height: 100px;
+    clear: both;
+    overflow: visible;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 700px){
+    p {
+        display: none;
+    }
+}
